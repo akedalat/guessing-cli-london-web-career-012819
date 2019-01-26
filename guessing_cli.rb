@@ -9,7 +9,6 @@ if input == "exit"
   puts "Goodbye!"
   return 0
 elsif input == randon_number
-  binding.pry
   puts "You guessed the correct number!"
 else
   puts "The computer guessed #{randon_number}"
