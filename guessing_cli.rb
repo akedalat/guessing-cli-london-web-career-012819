@@ -8,7 +8,7 @@ while input
 if input == "exit"
   puts "Goodbye!"
   return 0
-elsif input.to_i == randon_number
+elsif input == randon_number
   binding.pry
   puts "You guessed the correct number!"
 else
