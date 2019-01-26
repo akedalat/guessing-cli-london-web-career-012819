@@ -11,7 +11,7 @@ while input
     elsif input == randon_number
       puts "You guessed the correct number!"
     else
-      puts "The computer guessed #{randon_number}"
+      puts "The computer guessed #{randon_number}."
     end
   end
 end
