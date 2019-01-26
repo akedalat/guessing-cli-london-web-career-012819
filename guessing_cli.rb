@@ -7,6 +7,6 @@ if input == "exit"
   puts "Goodbye!"
 elsif input == randon_number
   puts "You guessed the correct number!"
-  
+
 end
 end
