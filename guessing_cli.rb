@@ -7,7 +7,7 @@ while input
   randon_number = rand(1..6).to_s
 if input == "exit"
   puts "Goodbye!"
-  return run_guessing_game
+  return 0
 elsif input.to_i == randon_number
   binding.pry
   puts "You guessed the correct number!"
