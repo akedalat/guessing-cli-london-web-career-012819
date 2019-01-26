@@ -10,7 +10,7 @@ if input == "exit"
   return 0
 elsif input == randon_number
   puts "You guessed the correct number!"
-elsif input != randon_number
+else
   puts "The computer guessed #{randon_number}"
 end
 end
