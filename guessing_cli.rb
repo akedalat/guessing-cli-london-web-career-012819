@@ -7,6 +7,7 @@ while input
 if input == "exit"
   return "Goodbye!"
 elsif input.to_i == randon_number
+  binding.pry
   return "You guessed the correct number!"
 else
   return "The computer guessed #{randon_number}"
