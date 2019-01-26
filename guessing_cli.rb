@@ -6,7 +6,7 @@ while input
   input = gets.chomp
   randon_number = rand(1..6).to_s
 if input == "exit"
-  return "Goodbye!"
+  puts "Goodbye!"
 elsif input.to_i == randon_number
   binding.pry
   puts "You guessed the correct number!"
