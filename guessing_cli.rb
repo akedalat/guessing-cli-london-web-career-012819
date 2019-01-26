@@ -5,5 +5,8 @@ randon_number = rand(1..6)
 input = gets.chomp
 if input == "exit"
   puts "Goodbye!"
+elsif input == randon_number
+  puts "You guessed the correct number!"
+  
 end
 end
