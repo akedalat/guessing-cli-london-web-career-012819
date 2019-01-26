@@ -7,9 +7,9 @@ while input
 if input == "exit"
   return "Goodbye!"
 elsif input.to_i == randon_number
-  puts "You guessed the correct number!"
+  return "You guessed the correct number!"
 else
-  puts "The computer guessed #{randon_number}"
+  return "The computer guessed #{randon_number}"
 end
 end
 end
