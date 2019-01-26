@@ -7,7 +7,8 @@ if input == "exit"
   puts "Goodbye!"
 elsif input == randon_number
   puts "You guessed the correct number!"
-else "The computer guessed #{randon_number}"
+else 
+  puts "The computer guessed #{randon_number}"
 
 end
 end
